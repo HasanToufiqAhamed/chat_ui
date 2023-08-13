@@ -1,4 +1,4 @@
-import 'package:chat_ui/screens/chat/model/Message.dart';
+import 'package:chat_ui/screens/chat/model/message.dart';
 import 'package:chat_ui/screens/chat/ui/chat_appbar.dart';
 import 'package:chat_ui/utilities/extensions/widget.extensions.dart';
 import 'package:flutter/material.dart';

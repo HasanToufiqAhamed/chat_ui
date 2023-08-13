@@ -3,13 +3,14 @@ import 'package:chat_ui/data/constants/app_dimens.dart';
 import 'package:chat_ui/utilities/extensions/widget.extensions.dart';
 import 'package:flutter/material.dart';
 
-import '../model/Message.dart';
+import '../model/message.dart';
 
 class ChatCard extends StatelessWidget {
   final Message message;
   final bool sender;
 
-  ChatCard({
+  const ChatCard({
+    super.key,
     required this.message,
     required this.sender,
   });

@@ -33,11 +33,9 @@ class _ChatScreenState extends State<ChatScreen> {
                 // Map message = Map.from(controller.chatList[index]);
                 Message message = Message(
                   message: 'Lorem Ipsum is simply dummy text of the printing.',
-                  timestamp: DateTime.now(),
                   messageType: index % 4 == 0 && index != 0
                       ? MessageType.image
                       : MessageType.text,
-                  senderId: '',
                 );
                 return ChatCard(
                   message: message,
